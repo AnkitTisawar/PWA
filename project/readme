@@ -2,7 +2,7 @@ i have used the QR generate package name simple-qrcode for QR generation
 in controller i have genrated the qr code.
 
 
-instalation
+<!-- installation -->
 
 git cline simple-qrcode for QR generation
 cd project
@@ -11,3 +11,5 @@ php artisan migrate:fresh --seed
 sudo apt install -y php-imagick
 sudo systemctl restart php8.1-fpm
 php artisan serve
+
+for the QR scanning kindly use Ngrock on the local system.
