@@ -12,4 +12,5 @@ sudo apt install -y php-imagick
 sudo systemctl restart php8.1-fpm
 php artisan serve
 
-for the QR scanning kindly use Ngrock on the local system.
+for the QR scanning kindly use Ngrok on the local system.
+ngrok http 8000
