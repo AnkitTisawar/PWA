@@ -11,3 +11,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [UserController::class, 'index'])->name('users.index');
 Route::get('/profile/{id}', [UserController::class, 'show'])->name('profiles.show');
 Route::get('/user/{id}/qr', [UserController::class, 'qr'])->name('users.qr');
+Route::get('/scan-qr', [UserController::class, 'scanQrPage'])->name('scan.qr.page');
+Route::get('/scan-data/{id?}', [UserController::class, 'showData'])->name('scan.data');

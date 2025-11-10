@@ -27,5 +27,13 @@ class UserController extends Controller
         return response($png, 200)->header('Content-Type', 'image/png');
     }
 
-
+public function scanQrPage()
+{
+    return view('users.scan-qr');
+}
+public function showData($id)
+    {
+        $user = User::findOrFail($id);
+        return response()->json($user);
+    }
 }
