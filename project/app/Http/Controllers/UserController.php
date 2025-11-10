@@ -27,8 +27,5 @@ class UserController extends Controller
         return response($png, 200)->header('Content-Type', 'image/png');
     }
 
-    public function scanPage()
-    {
-        return view('users.scan');
-    }
+
 }

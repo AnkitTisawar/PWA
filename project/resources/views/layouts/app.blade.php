@@ -23,7 +23,6 @@
 <body>
     <header>
         <a href="/">Users</a>
-        <a href="/scan">Scan QR</a>
     </header>
     <main>
         @yield('content')
